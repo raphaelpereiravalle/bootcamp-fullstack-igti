@@ -1,2 +1,2 @@
 # bootcamp-fullstack-igti
-Repositório com atividade do Bootcamp Fullstack IGTI
+Repositório com atividade do Bootcamp Fullstack IGT
