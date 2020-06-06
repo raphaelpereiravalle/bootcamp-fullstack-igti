@@ -1,9 +1,11 @@
 # bootcamp-fullstack-igti
 <p align="center">
-  <img src="../../assets/bootcamp-logo.png" alt="Logo Bootcamp"/>
+  <img src="../../assets/img/bootcamp-logo.png" alt="Logo Bootcamp"/>
 </p>
 
-<p>Repositório com atividade do Bootcamp Fullstack IGTI</p>
 
-#Módulo 1
-#Módulo 2
+<h1 align="center">Repositório com atividade do Bootcamp Fullstack IGTI</h1>
+
+## Módulos
+1. [Fundamentos - Desenvolvedor Full Stack](Modulo1)
+2. [Desenvolvimento de APIs](Modulo2)
