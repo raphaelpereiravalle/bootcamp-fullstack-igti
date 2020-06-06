@@ -1,6 +1,6 @@
 # bootcamp-fullstack-igti
 <p align="center">
-  <img src="../../assets/img/bootcamp-logo.png" alt="Logo Bootcamp"/>
+  <img src="../../assets/img/bootcamp_fullstack.png" alt="Logo Bootcamp"/>
 </p>
 
 
