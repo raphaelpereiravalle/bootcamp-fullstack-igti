@@ -3,7 +3,7 @@
   <img src="assets/img/bootcamp_fullstack.png" alt="Logo Bootcamp Fullstack"/>
 </p>
 
-<h1 align="center">Repositório com atividade do Bootcamp Fullstack IGTI</h1>
+<h1 align="center">Repositório com atividades do Bootcamp Fullstack IGTI</h1>
 
 ## Módulos
 1. [Fundamentos - Desenvolvedor Full Stack](Modulo1)
