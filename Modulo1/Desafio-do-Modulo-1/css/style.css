@@ -18,3 +18,8 @@
     padding: 10px;
     font-size: 18px;
 }
+
+.hidden {
+    display: none;
+  }
+  

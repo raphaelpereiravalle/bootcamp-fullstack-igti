@@ -1,6 +1,6 @@
 'use strict';
 
-let inputName = null, btnBusca = null, statistic = null, user = null;
+let inputName = null, btnBusca = null, statistic = null, user = null, divMain = null, divLoading = null;
 let atributoArray = [];
 let filter = [];
 let numberFormat = Intl.NumberFormat("pt-BR");
@@ -10,7 +10,8 @@ window.addEventListener('load', () => {
     btnBusca = document.querySelector('#btnBusca');
     statistic = document.querySelector('#statistic');
     user = document.querySelector('#user');
-   
+    divMain = document.querySelector('#divMain');
+    divLoading = document.querySelector("#loading");
     btnBusca.classList.add('disabled');
     btnBusca.addEventListener('click', searchForName);
     
@@ -25,7 +26,7 @@ function preventFormSubmit() {
   
    var form = document.querySelector('form');
    form.addEventListener('submit', handleFormSubmit);
- }
+}
 
 // Funcção para carregar URL e dados para o array
 // Cabeçalho da função decorada com a palavra-chave async
@@ -45,7 +46,7 @@ async function fetchUrl() {
             gender: gender === 'male' ? 'M' : 'F'
         };
     });
-    myFunction();
+    load();
 }
 
 const init = () => {
@@ -131,7 +132,7 @@ function divStatistic(filter) {
     const datasHtml = `<div class="card-panel lighten-5 z-depth-1">
                             <div class="text">Sexo masculino: <strong>${male}</strong></div>
                             <div class="text">Sexo feminino: <strong>${female}</strong></div>
-                             <div class="text">Soma das idade (s): <strong>${sum}</strong></div>
+                            <div class="text">Soma das idade (s): <strong>${sum}</strong></div>
                             <div class="text">Média das idade (s): <strong>${average}</strong></div>
                         </div>`;
                                                 
@@ -169,15 +170,13 @@ function sumAge(filter) {
 function avgAge(filter) {
     const avgAges = filter.reduce((accumulator, current) => accumulator + current.age, 0) / filter.length;
     return avgAges;
-    //console.log(filter.length) ;
-   // console.log(avgAges) ;
-   // console.log(avgAges / filter.length) ;
 }
 
-function myFunction() {
-    setTimeout(showPage, 3000);
+function load() {
+    setTimeout(showPage, 2000);
 }
 
 function showPage() {
-    document.getElementById("loading").style.display = "none";
+    divLoading.classList.add('hidden');
+    divMain.classList.remove('hidden');
 }

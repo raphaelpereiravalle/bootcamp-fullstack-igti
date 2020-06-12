@@ -1,8 +1,7 @@
 # bootcamp-fullstack-igti
 <p align="center">
-  <img src="../../assets/img/bootcamp_fullstack.png" alt="Logo Bootcamp Fullstack"/>
+  <img src="assets/img/bootcamp_fullstack.png" alt="Logo Bootcamp Fullstack"/>
 </p>
-
 
 <h1 align="center">Repositório com atividade do Bootcamp Fullstack IGTI</h1>
 
