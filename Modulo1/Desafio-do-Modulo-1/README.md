@@ -39,12 +39,12 @@ imagens abaixo.
 
 **Tela inicial da aplicação (sugestão):**
 
-![Tela antes da busca](/assets/tela_inicio_d1.png)
+![Tela antes da busca](/assets/img/tela_inicio_d1.png)
 
 <hr />
 
 **Tela inicial da aplicação após a busca (sugestão):**
-![Tela após a busca](/assets/tela_busca_d1.png)
+![Tela após a busca](/assets/img/tela_busca_d1.png)
 
 ### Dicas
 
@@ -61,4 +61,4 @@ imagens abaixo.
 
 ### Resultado Final da implementação
 
-<div style="text-align:center"><img src="/assets/" /></div>
+<div style="text-align:center"><img src="/assets/img/" /></div>

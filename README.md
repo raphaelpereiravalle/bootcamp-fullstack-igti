@@ -1,4 +1,3 @@
-# bootcamp-fullstack-igti
 <p align="center">
   <img src="assets/img/bootcamp_fullstack.png" alt="Logo Bootcamp Fullstack"/>
 </p>
