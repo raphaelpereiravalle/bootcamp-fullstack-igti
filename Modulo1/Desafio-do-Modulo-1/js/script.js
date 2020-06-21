@@ -120,7 +120,7 @@ function divUser(filter) {
 }
 
 function divStatistic(filter) {
-    
+    // Carregar funções
     let male = countMale(filter);
     let female = countFemale(filter);
     let sum = sumAge(filter);

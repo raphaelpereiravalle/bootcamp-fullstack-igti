@@ -61,4 +61,6 @@ imagens abaixo.
 
 ### Resultado Final da implementação
 
-<div style="text-align:center"><img src="/assets/img/" /></div>
+<div style="text-align:center">
+    <img src="/assets/img/" />
+</div>
