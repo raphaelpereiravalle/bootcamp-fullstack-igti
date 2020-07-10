@@ -3,7 +3,7 @@
 import mongoose from 'mongoose';
 
 // Configuração de conexão com banco de dados
-const connectionString = 'mongodb+srv://user_accounts:accounts@cluster0-ueakx.gcp.mongodb.net/dbAccounts?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://<user>:<password>@cluster0-ueakx.gcp.mongodb.net/<data base>?retryWrites=true&w=majority';
 const MONGODB_URL = process.env.MONGODB_URL || connectionString;
 
 try {
