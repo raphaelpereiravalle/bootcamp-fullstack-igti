@@ -7,7 +7,7 @@ const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 app.listen(port, () => {
-console.log('API rodando na porta ' + port);
+    console.log('API rodando na porta ' + port);
 }); 
     
 // Função para validar porta
