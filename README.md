@@ -8,4 +8,5 @@
 1. [Fundamentos - Desenvolvedor Full Stack](Modulo1)
 2. [Desenvolvimento de APIs](Modulo2)
 3. [FrontEnd com React](Modulo3)
-4.  Persistência de dados, versionamento de código e implantação(Modulo4)
+4. [Persistência de dados, versionamento de código e implantação](Modulo4)
+5. Desafio Final (DesafioFinal)

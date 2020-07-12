@@ -1,8 +1,9 @@
-## Trabalho desafio do módulo 3
+## Desafio prático do módulo 3
 
 ## Instruções
 
 ### Objetivos
+
 Exercitar os seguintes conceitos trabalhados no Módulo:
 
 - Implementação de algoritmos com JavaScript.

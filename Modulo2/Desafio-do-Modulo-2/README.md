@@ -1,4 +1,4 @@
-## Desafio do módulo 2
+## Desafio prático do módulo 2
 
 ## Instruções
 

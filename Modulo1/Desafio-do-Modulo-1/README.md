@@ -1,4 +1,4 @@
-## Desafio do módulo 1
+## Desafio prático do módulo 1
 
 ## Instruções
 
@@ -64,3 +64,4 @@ imagens abaixo.
 <div style="text-align:center">
     <img src="/assets/img/" />
 </div>
+
